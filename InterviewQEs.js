@@ -19,7 +19,7 @@ symbols
 subclassable built-ins
 promises,math + number + string + array + object APIs,binary and octal literals,reflect api,tail calls
 
-
+what is latex this?
 arrow function
 let vs var
 
