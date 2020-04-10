@@ -40,4 +40,27 @@ Since web workers are in external files, they do not have access to the followin
 >The document object
 >The parent object
 
+What is web Sockets?
+The WebSocket API is an advanced technology that makes it possible to open a two-way interactive communication session between the 
+user's browser and a server. With this API, you can send messages to a server and receive event-driven responses without having to 
+poll the server for a reply.
+
+what is Server-Sent Events - One Way Messaging?
+A server-sent event is when a web page automatically gets updates from a server.
+This was also possible before, but the web page would have to ask if any updates were available. With server-sent events, 
+the updates come automatically.
+Examples: Facebook/Twitter updates, stock price updates, news feeds, sport results, etc.
+var source = new EventSource("demo_sse.php");
+source.onmessage = function(event) {
+  document.getElementById("result").innerHTML += event.data + "<br>";
+};
+Server-Side Code Example:
+For the example above to work, you need a server capable of sending data updates (like PHP or ASP).
+The server-side event stream syntax is simple. Set the "Content-Type" header to "text/event-stream".
+Now you can start sending event streams.
+onopen	When a connection to the server is opened
+onmessage	When a message is received
+onerror	When an error occurs
+
+
 */
