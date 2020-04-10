@@ -4,7 +4,7 @@ display properties
 block:takes full width
 inline:takes as much required.
 [make horizontal lis make li:display inline]
-
+Hidden: 
 box model
 Explanation of the different parts:
 Content - The content of the box, where text and images appear
