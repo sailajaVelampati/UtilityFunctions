@@ -20,7 +20,7 @@ Error boundaries do not catch errors for:
 >Errors thrown in the error boundary itself (rather than its children)
 
 How to share data between two component?
-props,context, useReducers, 
+props,context, useReducers, publish/subscribe 
 
 Life Cyle methods in React?
 mounting
@@ -43,6 +43,12 @@ componentWillUnmount()
 
 
 What is virtual Dom in react
+Each time we change something in our JSX file, all the objects that are there in the virtual DOM gets updated. Though it may sound that
+it is ineffective but the cost is not much significant as updating the virtual DOM doesn’t take much time. React maintains two Virtual
+DOM at each time, one contains the updated Virtual DOM and one which is just the pre-update version of this updated Virtual DOM. 
+Now it compares the pre-update version with the updated Virtual DOM and figures out what exactly has changed in the DOM.
+This process is known as ‘diffing’. Once React finds out what exactly has changed then it updated those objects only, on real DOM. 
+This significantly improves the performance and is the main reason why Virtual DOM is much loved by developers all around.
 https://reactjs.org/docs/faq-internals.html
 
 */
