@@ -1,9 +1,33 @@
 /*
+how to display image to the center of the screen?
+display:block;
+margin:auto
+
+how to make element display center of the screen?
+display:flex;
+justify-content:center;
+align-items:center;
+
+divide creen into 4 equal parts ?
+html, body { height: 100%; padding: 0; margin: 0; }
+div { width: 50%; height: 50%; float: left; }
+
+
 flex
 display properties
 block:takes full width
 inline:takes as much required.
 [make horizontal lis make li:display inline]
+none:
+inline-block:
+flex:
+grid:
+inline-flex:
+inline-grid:
+table:
+table-caption:
+table-row:
+table-cell:
 
 box model
 Explanation of the different parts:
