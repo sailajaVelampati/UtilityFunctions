@@ -23,4 +23,7 @@ what is latex this?
 arrow function
 let vs var
 
+Arrow function for lazy evaluation
+f = () => expression to create the lazily-evaluated expression, and f() to evaluate.
+
 */
