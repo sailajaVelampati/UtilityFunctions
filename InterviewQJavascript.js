@@ -25,5 +25,6 @@ ways to create an object
 
 ways to copy data from on object to other?
 >Object.assign() - the assignment operator doesn't create a copy of an object, it only assigns a reference to it.
-
+>Object.assign({}, obj) - chaid nodes are still mutable,
+>JSON.parse(JSON.stringify(obj)) - it will deep copy the object even chid node are not mutable
 */
