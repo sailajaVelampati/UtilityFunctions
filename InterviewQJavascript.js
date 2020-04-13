@@ -23,5 +23,7 @@ call()
 ways to create an object
 {}, new Object, Object.create()
 
+ways to copy data from on object to other?
+>Object.assign() - the assignment operator doesn't create a copy of an object, it only assigns a reference to it.
 
 */
