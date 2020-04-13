@@ -28,4 +28,7 @@ ways to copy data from on object to other?
 >Object.assign({}, obj) - chaid nodes are still mutable,
 >JSON.parse(JSON.stringify(obj)) - it will deep copy the object even chid node are immutable with respect to parent.
 Array [...array] - this will deep copy.
+
+Circular objects are objects that have properties referencing themselves. [SON.parse(JSON.stringify(obj)) this soes not work for copying it will throug an error]
+
 */
