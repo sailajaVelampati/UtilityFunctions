@@ -51,4 +51,17 @@ This process is known as ‘diffing’. Once React finds out what exactly has ch
 This significantly improves the performance and is the main reason why Virtual DOM is much loved by developers all around.
 https://reactjs.org/docs/faq-internals.html
 
+what do hooks bring to react ?
+forwarder 
+pure componets
+box shadow check it in IE cross broe?
+why web worker?
+state ans stateless componet
+differnce class and functional onponects?
+props - properties ?
+how to secure the application
+interface 
+closure?
+cors?
+require and import 
 */
