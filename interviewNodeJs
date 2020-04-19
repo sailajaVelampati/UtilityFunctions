@@ -1,1 +1,14 @@
 Y pakage lock json
+> browserify is used to bundle the scripts.
+>uglify is used to minify the bundled js files.
+
+> pre and post scripts will run before the specfied script with out specifically calling them
+>module.export with make the module avalable to consume in other files using require.
+
+>we can chain the commads with && if on fails other will not run
+>pipe out put of one command to the other command using  | symbol.
+>write output of one command to file using '>' 
+> just 'npm run' will return all the available script in the terminal
+>--watch to the script will watch the trageted file will auto update when the is a change. us can use watch modle to watch a certain folder
+>nodemon -auto build the application.
+semanti versioning  major.minor.patch | 
