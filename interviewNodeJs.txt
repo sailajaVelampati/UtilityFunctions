@@ -12,3 +12,10 @@ Y pakage lock json
 >--watch to the script will watch the trageted file will auto update when the is a change. us can use watch modle to watch a certain folder
 >nodemon -auto build the application.
 semanti versioning  major.minor.patch | 
+
+
+git object model - 
+blobs- arbitary content (file content)
+trees - simillar to directories
+commits - 
+annotated tags
