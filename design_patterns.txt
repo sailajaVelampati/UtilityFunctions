@@ -1,0 +1,11 @@
+kinds of patterens:
+creactional
+>constructor pattern
+>prototypal patteren
+>factory
+>singleton
+
+structural
+behavirial 
+
+prototype - an encapsulation of propetry that an bject links to 
