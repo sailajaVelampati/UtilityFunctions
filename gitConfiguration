@@ -1,0 +1,79 @@
+protocals - ssh, http, git protocal
+---------------------------------------
+ssh- utilizes ssh authentications, 
+does not require a git specific deamon, 
+encrypts to and from gitthe server, 
+requires authenticated user,
+---------------------------------------
+http - requires to set up wed server to serve git repositories,
+encrypts to and from git the server,
+enables encrypted anonymous user acces if desired.
+provides inefficient data transfer
+---------------------------------------
+git - inefficient data transfer,
+lackes authentication support
+additional cofiguration over other protocols.
+does not encrypt traffic btw client and server.
+commonly used for public access to repositories.
+-------------------------------------------------------------------------
+
+VCS - version control system
+
+
+3 stages of file - committed, modified, staged.
+commited - changes resides safely in the local database. 
+modified - when a commited / tracked file is changed.
+stages - modified file ready  for commit / newly added file yet to commit.
+
+2types of files 
+tracked - tracked file that are part of previous snapshot.
+untracked - file that did not exist in the last commit snapshot.
+
+3 states of a GIT project
+working directory - Checkout a version of the project from origin
+staging area(index) - stage fixes for next commit
+.git directory (repository) - commit changes from index
+
+--------------------------------------------------------------------------
+
+git commands - 
+git config --global user.name "sailaja velampati"
+git config --global user.email "sailajasmart@gmail.com"
+
+to change config options to a specfic project 
+git config  user.name "sailaja velampati1"
+git config  user.email "sailajasmart1@gmail.com"
+
+git config --list - gives all config settings.
+
+man git - cover every git command.
+HIGHT-LEVEL COMMANDS (PORCELAIN) - list og all main commands
+
+git help [subheading] - returns small list
+
+git fetch - download objects and refs from anaother repository.
+git pull - fetch from and integrate with another repository or local branch
+git push / git push -u origin master - update remote refs along with associated objects.
+git add . - add files to the stagging area and be tracked.
+git commit -m "" - commits the file to the local database.
+git remote add origin [link] - add locla repository to the remote repository.
+git status - discribes the status of the files.
+git status --short  - short message of staus dtat m- modified, A - added to the staging area, ?? - untacked by git
+git stash - when you want to record the current state of the working directory and the index, but want to go back to a clean working 
+directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.
+git stash save "my_stash_name" - save stash with name.
+https://devconnected.com/how-to-git-stash-changes/
+open -a [name of text editor] [filename] - open file in text editor.
+
+git diff --staged - compares the chages of staged file to the previously commited snapshot.
+git diff --staged --no-renames - compares the hash references.
+git diff -  compares the unstaged files.
+
+git commit -a -m "" - add all the staged and modified file in on statment.
+
+git log -  give the list of commit is the reverse chronological order, being the latest fisrt,
+git log -[number] - no of commits to be shown
+
+
+
+
