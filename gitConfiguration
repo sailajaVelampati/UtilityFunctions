@@ -107,6 +107,9 @@ git reset / git reset --mixed - moves the changes back to the working directory
 git reset --hard - moves the commit chages to the trash
 
 ------------------------------------------------------
-GUI VS CMD
+Advanced Git 
 
->cmd is better
+Git Object Model:
+Commits:conatins info of author, timestamp it is created, refference to the parent commit, 
+Snapshots: Reprensets the state of file and directores at the time of commit. each directory is termed as tree, and files as blobs,
+References:Each commit is reffernced with uniques SHA-1 hash
