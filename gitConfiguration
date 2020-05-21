@@ -62,6 +62,9 @@ git status --short  - short message of staus dtat m- modified, A - added to the 
 git stash - when you want to record the current state of the working directory and the index, but want to go back to a clean working 
 directory. The command saves your local modifications away and reverts the working directory to match the HEAD commit.
 git stash save "my_stash_name" - save stash with name.
+git stash pop - adds changes back into the working directory.
+git stash list - show list of stash along with branch and commit data.
+git stash show - better detailed view of 
 https://devconnected.com/how-to-git-stash-changes/
 open -a [name of text editor] [filename] - open file in text editor.
 
@@ -73,7 +76,37 @@ git commit -a -m "" - add all the staged and modified file in on statment.
 
 git log -  give the list of commit is the reverse chronological order, being the latest fisrt,
 git log -[number] - no of commits to be shown
+git log --oneline -  short details of commit
+git log --stat - detail version of each commits.
 
+Good practice form commit message : 
+Captalise subject line,
+Do not end subject with the period,
+limit the message to 72 characters,
+----------------------------------------------------------
 
+git rm [filename] - removes file from the directory
+git rm --cached [filename] - unstages the files and storps tracting it , but will not remove it from the directory
 
+git mv [filename] [new filename] - renames the file name and it is still tracked.
 
+https://git-school.github.io/visualizing-git/
+
+Branching
+---------
+git checkout -b [branch name] - creates a new branch
+get merge master - merges master data into the new branch.
+:wq - exit vem tool
+HEAD - is the current state of branch we are on.
+
+Rest 
+.......
+
+git reset --soft - moves specific commit or commits to staging area.
+git reset / git reset --mixed - moves the changes back to the working directory
+git reset --hard - moves the commit chages to the trash
+
+------------------------------------------------------
+GUI VS CMD
+
+>cmd is better
