@@ -31,4 +31,14 @@ Array [...array] - this will deep copy.
 
 Circular objects are objects that have properties referencing themselves. [SON.parse(JSON.stringify(obj)) this soes not work for copying it will throug an error]
 
+forEach, map, reduce, filter
+Map:
+The map() method is used for creating a new array from an existing one, applying a function to each one of the elements of the  array.
+Filter:
+The filter() method takes each element in an array and it applies a conditional statement against it. 
+If this conditional returns true, the element gets pushed to the output array. If the condition returns false, the element does not get pushed to the output array.
+Reduce:
+The reduce() method reduces an array of values down to just one value. To get the output value, it runs a reducer function on each element of the array.
+forEach :
+will not create a new arrray, applys a function to each one of the elements of the  array. 
 */
