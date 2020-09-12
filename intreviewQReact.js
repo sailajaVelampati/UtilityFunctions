@@ -1,5 +1,5 @@
 /*
-How to pass value from parent to child in react componets?
+How to pass value from child to parent in react componets?
 >Define a callback in parent which takes the data I need in as a parameter.
 >Pass that callback as a prop to the child.
 >Call the callback using this.props.[callback] in the child (insert your own name where it says [callback] of course), 
@@ -52,14 +52,34 @@ This significantly improves the performance and is the main reason why Virtual D
 https://reactjs.org/docs/faq-internals.html
 
 what do hooks bring to react ?
-forwarder 
-pure componets
-box shadow check it in IE cross broe?
+Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
+
+forwarder in react ?
+Ref forwarding in React is a feature that lets components pass down (“forward”) refs to their children. It gives the child component a reference
+to a DOM element created by its parent component. This then allows the child to read and modify that element anywhere it is being used.
+
+pure componets ?
+A component is said to be pure if it is guaranteed to return the same result given the same props and state. 
+A functional component is a good example of a pure component because, given an input, you know what will be rendered. 
+Class components can be pure too as long as their props and state are immutable.
+
+box shadow check it in IE cross border?
+
 why web worker?
-state ans stateless componet
-differnce class and functional onponects?
+Web workers in Javascript are a great way to execute some task which is very laborious and time taking into a thread separate from the main thread. 
+They run in background and perform tasks without interfering with the user interface.
+Web Workers are not the part of JavaScript, they’re a browser feature which can be accessed through JavaScript.
+Web workers are created by a constructor function Worker() which runs a named JS file.
+// create a dedicated web worker
+const myWorker = new Worker('worker.js');
+
+state ans stateless components?
+
+differnce class and functional components?
 props - properties ?
 how to secure the application
+https://www.keycdn.com/blog/web-application-security-best-practices
+
 interface 
 closure?
 cors?
