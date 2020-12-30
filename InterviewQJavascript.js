@@ -18,20 +18,24 @@ Inheritance
 Encapsulation – The process of wrapping property and function within a single unit is known as encapsulation.
 
 bind, call, apply?
-call()
+bind() -bind attaches this into function and it needs to be invoked separately:
+call() - call attaches this into function and executes the function immediately:
+apply() - apply is similar to call except that it takes an array-like object instead of listing the arguments out one at a time.
+
 
 ways to create an object
 {}, new Object, Object.create()
 
 ways to copy data from on object to other?
 >Object.assign() - the assignment operator doesn't create a copy of an object, it only assigns a reference to it.
->Object.assign({}, obj) - chaid nodes are still mutable,
+>Object.assign({}, obj) - child nodes are still mutable,
 >JSON.parse(JSON.stringify(obj)) - it will deep copy the object even chid node are immutable with respect to parent.
 Array [...array] - this will deep copy.
 
-Circular objects are objects that have properties referencing themselves. [SON.parse(JSON.stringify(obj)) this soes not work for copying it will throug an error]
+Circular objects are objects that have properties referencing themselves. [JSON.parse(JSON.stringify(obj)) this does not work for copying it will throug an error]
 
-forEach, map, reduce, filter
+
+forEach, map, reduce, filter - higher order functions.
 Map:
 The map() method is used for creating a new array from an existing one, applying a function to each one of the elements of the  array.
 Filter:
