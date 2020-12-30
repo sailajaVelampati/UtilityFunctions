@@ -9,5 +9,5 @@ Comples Datatypes
 >function
 >object
 */
-typeOf(null);
+typeOf(null) - // null
 
