@@ -1,0 +1,7 @@
+How to speed up the page.
+>add async or differ to the non critical external files.
+>avoid inline styling.
+>avaoid to many DOM manupulation before the FCP and LCP.
+>Add pre load to in rel of link
+>have less that 6 critical file before FCP.
+>DOM+CSSoM gives increase load on CPU. where it waits for the thread to clear whcih increases LCP.
