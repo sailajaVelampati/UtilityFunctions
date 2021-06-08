@@ -48,4 +48,7 @@ will not create a new arrray, applys a function to each one of the elements of t
 */
 https://medium.com/jspoint/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
 What is a call stack?
-> ti can have 16000 entires at a time.
+ It is the indication of the current exectable position we are in 
+ Whenever a function is called, the JavaScript engine creates a Function Execution Context for the function, pushes it on top of the Call Stack, 
+ and starts executing the function.
+> it can have 16000 entires at a time.
