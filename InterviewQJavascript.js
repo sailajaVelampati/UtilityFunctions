@@ -46,3 +46,6 @@ The reduce() method reduces an array of values down to just one value. To get th
 forEach :
 will not create a new arrray, applys a function to each one of the elements of the  array. 
 */
+https://medium.com/jspoint/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
+What is a call stack?
+> ti can have 16000 entires at a time.
