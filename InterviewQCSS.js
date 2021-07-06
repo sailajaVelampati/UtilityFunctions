@@ -93,3 +93,18 @@ container-sm|md|lg|xl default sizes in boot strap
 container can be fixed width or fluid [for fixed width we can see screen adjusting css, in fluid look is semless ].
 
 */
+
+Name       │  Source
+───────────┼────────────────────
+user agent │ Browser  
+author     │ You (the content creator)  
+User       │ end user (the person using your website)
+Precedence │ Source                    
+───────────┼────────────────────────────────────────────────────────────────────
+Lowest   0 │ user agent styles => these are the styles you see in the screenshot
+         1 │ User styles
+         2 │ author CSS styles => beware CSS precedence rules (link below)!
+         3 │ author inline styles
+         4 │ author CSS styles with `!important`
+         5 │ author inline styles with `!important`
+Highest  6 │ User styles with `!important`
