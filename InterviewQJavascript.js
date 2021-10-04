@@ -61,3 +61,5 @@ What is difference between promise and async?
 promise - If the function “fxn1” is to executed after the promise, then promise.then(fxn1) continues execution of the current function after adding the fxn1 call to the callback chain.	
 async - If the function “fxn1” is to executed after await, then await X() suspends execution of the current function and then fxn1 is executed.                                
 https://www.geeksforgeeks.org/difference-between-promise-and-async-await-in-node-js/
+async and differ?
+ generator function
