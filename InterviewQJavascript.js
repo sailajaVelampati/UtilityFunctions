@@ -39,16 +39,21 @@ forEach, map, reduce, filter - higher order functions.
 Map:
 The map() method is used for creating a new array from an existing one, applying a function to each one of the elements of the  array.
 Filter:
-The filter() method takes each element in an array and it applies a conditional statement against it. 
-If this conditional returns true, the element gets pushed to the output array. If the condition returns false, the element does not get pushed to the output array.
+The filter() method takes each element in an array and it applies a conditional statement against it.  
+If this conditional returns true, the element gets pushed to the output array. If the condition returns false, the element does not get pushed to the output array. 
+(parent array is not modified)
 Reduce:
 The reduce() method reduces an array of values down to just one value. To get the output value, it runs a reducer function on each element of the array.
 forEach :
 will not create a new arrray, applys a function to each one of the elements of the  array. 
 */
 https://medium.com/jspoint/how-javascript-works-in-browser-and-node-ab7d0d09ac2f
+http://latentflip.com/loupe/?code=ZnVuY3Rpb24gcHJpbnRIZWxsbygpIHsNCiAgICBjb25zb2xlLmxvZygnSGVsbG8gZnJvbSBiYXonKTsNCn0NCg0KZnVuY3Rpb24gYmF6KCkgew0KICAgIHNldFRpbWVvdXQocHJpbnRIZWxsbywgMzAwMCk7DQp9DQoNCmZ1bmN0aW9uIGJhcigpIHsNCiAgICBiYXooKTsNCn0NCg0KZnVuY3Rpb24gZm9vKCkgew0KICAgIGJhcigpOw0KfQ0KDQpmb28oKTs%3D!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D
 What is a call stack?
  It is the indication of the current exectable position we are in 
  Whenever a function is called, the JavaScript engine creates a Function Execution Context for the function, pushes it on top of the Call Stack, 
  and starts executing the function.
 > it can have 16000 entires at a time.
+
+What is difference between promise and async?
+when to use server side rendering?
