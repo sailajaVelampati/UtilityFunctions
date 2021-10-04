@@ -57,3 +57,4 @@ What is a call stack?
 
 What is difference between promise and async?
 when to use server side rendering?
+how does callback chain ?
